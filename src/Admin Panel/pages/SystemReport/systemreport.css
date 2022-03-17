@@ -1,0 +1,102 @@
+.systemreport {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  cursor: url('../../assets/images/cursor.png'), pointer;
+}
+.systemreport_cont {
+  margin-top: 100px;
+  width: 90%;
+  /* background-color: aqua; */
+}
+
+.date_cont label {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+div.dataTables_wrapper {
+  width: 58%;
+
+  font-size: 1.3rem;
+}
+
+.systemreport_attend th {
+  font-size: 1.3rem;
+  color: #fff;
+}
+.systemreport_attend thead {
+  background: linear-gradient(to bottom, #8e2de2, #4a00e0);
+}
+
+#from,
+#to {
+  background: linear-gradient(to bottom, #8e2de2, #4a00e0);
+  color: #fff;
+  font-weight: bold;
+  padding: 0.3rem 1rem;
+}
+.btn-submit {
+  background: linear-gradient(to bottom, #8e2de2, #4a00e0);
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.btn-submit-close {
+  background-color: yellow;
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.btn-systemreport {
+  font-size: 1.3rem;
+}
+.presents_attend th {
+  font-size: 2rem;
+  color: #fff;
+}
+.btn-att {
+  font-size: 1.3rem;
+}
+
+.sysinfo > #btn_print {
+  font-size: 1.5rem;
+  background-color: yellow;
+  font-weight: bold;
+}
+.classes {
+  background-color: yellow;
+}
+@media only screen and (max-width: 768px) {
+  .systemreport_attend th {
+    font-size: 1.5rem;
+  }
+  .sysinfo > #btn_print {
+    font-size: 1.3rem;
+  }
+
+  .systemreport_cont {
+    width: 100%;
+  }
+  div.dataTables_wrapper {
+    width: 70%;
+
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .systemreport_attend th {
+    font-size: 1.5rem;
+  }
+  .systemreport_attend {
+    font-size: 1.7rem;
+  }
+  .systemreport_cont {
+    width: 100%;
+  }
+  div.dataTables_wrapper {
+    width: 57%;
+
+    font-size: 1.3rem;
+  }
+}

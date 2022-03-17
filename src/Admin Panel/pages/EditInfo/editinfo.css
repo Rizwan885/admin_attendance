@@ -1,0 +1,35 @@
+.editinfo {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  cursor: url('../../assets/images/cursor.png'), pointer;
+}
+.editinfo_cont {
+  margin-top: 100px;
+  width: 90%;
+}
+.form-btn {
+  background: linear-gradient(to bottom, #8e2de2, #4a00e0);
+  color: #fff;
+  padding: 0.3rem 3rem;
+}
+.form-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.form_cont {
+  width: 50%;
+}
+.form_cont label {
+  font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .form_cont label {
+    font-size: 1.5rem;
+  }
+}

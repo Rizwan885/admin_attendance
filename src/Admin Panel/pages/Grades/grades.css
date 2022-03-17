@@ -1,0 +1,44 @@
+.grades {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.grades_cont {
+  margin-top: 100px;
+  width: 90%;
+}
+
+.btn-submit {
+  background: linear-gradient(to bottom, #8e2de2, #4a00e0);
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.btn-submit-close {
+  background-color: yellow;
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+div.dataTables_wrapper {
+  width: 90%;
+  /* margin: 0 auto; */
+  font-size: 1.3rem;
+}
+
+.grades_table th {
+  font-size: 1.3rem;
+  color: #fff;
+}
+.grades_table thead {
+  background: linear-gradient(to bottom, #8e2de2, #4a00e0);
+}
+@media only screen and (min-width: 540px) {
+  .grades_table th {
+    font-size: 1.5rem;
+  }
+  .grades_table {
+    font-size: 1.5rem;
+  }
+}

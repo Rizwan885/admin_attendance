@@ -1,0 +1,11 @@
+.error {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.error_cont {
+  margin-top: 100px;
+  width: 90%;
+  /* background-color: aqua; */
+}
